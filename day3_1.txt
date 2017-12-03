@@ -1,0 +1,13 @@
+input = 312051
+
+557^2 < 312051 < 559^2
+  => input is in ring with "width" 559
+
+559^2 - 312051 = 430
+  AND 430 < 559
+  => input is in bottom row
+
+middle_value = (559/2) + (559^2 - 559 + 1) = 312202
+distance_from_middle_of_row = 312202 - 312051 = 151
+nth_ring = 559 / 2 = 279
+total_distance = 279 + 151 = 430
